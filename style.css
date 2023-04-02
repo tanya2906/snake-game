@@ -1,0 +1,22 @@
+
+        *{
+            margin: 0;
+        }
+        body{
+            background-color: black;
+            
+        }
+        div{
+            display: flex;
+            justify-content: center;
+        }
+        canvas{
+            background-image: url("bg.jpg");
+            border: 1rem solid rgb(22, 99, 9);
+        }
+        .game{
+            color: rgb(73, 169, 28);
+            font-size: larger;
+            font-weight: bold;
+        }
+    
