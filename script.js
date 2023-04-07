@@ -118,6 +118,7 @@ function game(){
     if(snake.game_over()==true){
         alert("game over!!");
         clearInterval(f);
+        location.reaload()
     }
     draw();
     update();
